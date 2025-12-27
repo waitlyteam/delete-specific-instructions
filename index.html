@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מחיקה חלקית של נתונים - Waitly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .app-name {
+            color: #666;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-right: 4px solid #667eea;
+            padding-right: 15px;
+        }
+        
+        p, li {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .steps {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-right: 4px solid #667eea;
+        }
+        
+        .steps ol {
+            margin-right: 20px;
+        }
+        
+        .steps li {
+            margin-bottom: 12px;
+            padding-right: 10px;
+        }
+        
+        .important {
+            background: #e3f2fd;
+            border-right: 4px solid #2196f3;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .auto-delete {
+            background: #fff3cd;
+            border-right: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .contact {
+            background: #f1f3f5;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .delete-option {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .delete-option h3 {
+            color: #667eea;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>מחיקה חלקית של נתונים</h1>
+        <div class="app-name">מופעל על ידי Waitly | Trigix Labs</div>
+        
+        <p>עמוד זה מסביר כיצד למחוק חלקים ספציפיים מהנתונים שלך <strong>מבלי למחוק את החשבון כולו</strong>. מחיקה חלקית מאפשרת לך שליטה מלאה על המידע האישי שלך.</p>
+        
+        <h2>🗑️ אילו נתונים ניתן למחוק באופן חלקי?</h2>
+        
+        <div class="delete-option">
+            <h3>1️⃣ מחיקת תור ספציפי</h3>
+            <div class="steps">
+                <ol>
+                    <li>היכנס לאפליקציה</li>
+                    <li>לחץ על תפריט המשתמש (☰)</li>
+                    <li>בחר "התורים שלי"</li>
+                    <li>מצא את התור שברצונך למחוק</li>
+                    <li>לחץ על "ביטול תור" או "מחיקת תור"</li>
+                    <li>אשר את המחיקה</li>
+                </ol>
+                <p><strong>מה נמחק:</strong> התור הספציפי, כולל התאריך, השעה וההערות שצורפו אליו.</p>
+                <p><strong>מה נשאר:</strong> החשבון שלך, פרטי הקשר, היסטוריית תורים אחרת.</p>
+            </div>
+        </div>
+        
+        <div class="delete-option">
+            <h3>2️⃣ מחיקת תמונת פרופיל</h3>
+            <div class="steps">
+                <ol>
+                    <li>היכנס לאפליקציה</li>
+                    <li>לחץ על תפריט המשתמש (☰)</li>
+                    <li>בחר "הפרופיל שלי"</li>
+                    <li>לחץ על תמונת הפרופיל</li>
+                    <li>בחר "הסרת תמונה" או "מחיקת תמונה"</li>
+                    <li>אשר את המחיקה</li>
+                </ol>
+                <p><strong>מה נמחק:</strong> תמונת הפרופיל שלך.</p>
+                <p><strong>מה נשאר:</strong> כל שאר פרטי החשבון והמידע האישי.</p>
+            </div>
+        </div>
+        
+        <div class="delete-option">
+            <h3>3️⃣ מחיקת הערות או פרטים נוספים</h3>
+            <p>ניתן לערוך או למחוק הערות והעדפות שהוספת לפרופיל שלך דרך עמוד "הפרופיל שלי" באפליקציה.</p>
+        </div>
+        
+        <h2>🤖 מחיקה אוטומטית של נתונים</h2>
+        <div class="auto-delete">
+            <p><strong>המערכת מוחקת אוטומטית נתונים מסוימים:</strong></p>
+            <ul>
+                <li><strong>תורים שעברו:</strong> נתוני תורים שהתאריך שלהם חלף נמחקים אוטומטית מהמערכת לאחר תקופה מוגדרת</li>
+                <li><strong>רשימות המתנה:</strong> משתמשים שהיו ברשימת המתנה ולא התקדמו לתור פעיל - המידע שלהם עשוי להימחק אוטומטית</li>
+                <li><strong>נתונים זמניים:</strong> מידע שנשמר באופן זמני (כגון יומני גישה) נמחק אוטומטית לאחר תקופת שמירה קצובה</li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>הערה:</strong> מחיקה אוטומטית זו אינה חלה על פרטי הקשר הבסיסיים שלך (שם, טלפון) שנשמרים במאגר השיווקי.</p>
+        </div>
+        
+        <h2>⚠️ הבדל בין מחיקה חלקית למחיקת חשבון מלאה</h2>
+        <div class="important">
+            <p><strong>מחיקה חלקית:</strong></p>
+            <ul>
+                <li>מוחקת רק את הנתונים הספציפיים שבחרת</li>
+                <li>החשבון שלך נשאר פעיל</li>
+                <li>תוכל להמשיך להשתמש באפליקציה</li>
+                <li>פרטי הקשר נשארים במאגר</li>
+            </ul>
+            
+            <p style="margin-top: 15px;"><strong>מחיקת חשבון מלאה:</strong></p>
+            <ul>
+                <li>מוחקת את כל מידע השירות</li>
+                <li>החשבון מבוטל לצמיתות</li>
+                <li>לא תוכל להתחבר יותר</li>
+                <li>פרטי קשר בסיסיים נשמרים במאגר שיווקי (אלא אם מבקשים מחיקה מלאה)</li>
+            </ul>
+            
+            <p style="margin-top: 15px;"><strong>למחיקת חשבון מלאה:</strong> <a href="https://waitlyteam.github.io/delete-account-instructions/" style="color: #667eea; font-weight: bold;">לחץ כאן</a></p>
+        </div>
+        
+        <h2>⏱️ כמה זמן לוקח המחיקה?</h2>
+        <p>מחיקה חלקית מתבצעת <strong>מיידית</strong> לאחר אישור הפעולה. הנתונים שנמחקו לא יוצגו יותר באפליקציה.</p>
+        <p>עם זאת, גיבויי מערכת ויומנים טכניים עשויים להישמר לתקופה מוגבלת לצרכי אבטחה ותפעול.</p>
+        
+        <h2>ℹ️ הערות חשובות</h2>
+        <p>• מחיקה חלקית של נתונים היא בלתי הפיכה ולא ניתן לשחזר את הנתונים שנמחקו</p>
+        <p>• אם אתה מבטל תור, מומלץ לעשות זאת מראש כדי לאפשר למשתמשים אחרים להיכנס לתור</p>
+        <p>• מחיקת נתונים אינה משפיעה על המידע במאגר השיווקי של Waitly</p>
+        
+        <div class="contact">
+            <h2>📧 צריך עזרה?</h2>
+            <p>לכל שאלה או בקשה נוספת בנושא מחיקת נתונים:</p>
+            <a href="mailto:waitly.team@gmail.com">waitly.team@gmail.com</a>
+            <p style="margin-top: 15px; font-size: 14px; color: #666;">
+                (פלטפורמת Waitly מופעלת על ידי Trigix Labs)
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p>מדיניות זו עודכנה לאחרונה: דצמבר 2025</p>
+            <p>© 2025 Trigix Labs. כל הזכויות שמורות.</p>
+        </div>
+    </div>
+</body>
+</html>
